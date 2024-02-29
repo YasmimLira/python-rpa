@@ -7,8 +7,8 @@ navegadorFake = webdriver.Chrome()
 
 navegadorFake.get('https://totvs-torres.monday.com/')
 
-loginInput = navegadorFake.find_element(By.ID, 'user_email').send_keys('yasmim.castro2801@gmail.com')
-passwordInput = navegadorFake.find_element(By.ID, 'user_password').send_keys('Cas!80408.96')
+loginInput = navegadorFake.find_element(By.ID, 'user_email').send_keys('teste@gmail.com')
+passwordInput = navegadorFake.find_element(By.ID, 'user_password').send_keys('11111')
 loadTime.sleep(2)
 
 loginButton = navegadorFake.find_element(By.CLASS_NAME, 'next-button-component').click()
